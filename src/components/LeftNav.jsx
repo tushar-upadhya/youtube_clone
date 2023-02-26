@@ -55,7 +55,13 @@ const LeftNav = () => {
                 })}
                 <hr className="my-5 border-white/[0.2]" />
                 <div className="text-white/[0.5] text-[12px]">
-                    Made by : Tushar Upadhyay
+                    Made by :
+                    <a
+                        href="https://www.linkedin.com/in/tushar-upadhyay-54029b135/"
+                        target="_blank"
+                    >
+                        Tushar Upadhyay
+                    </a>
                 </div>
             </div>
         </div>
