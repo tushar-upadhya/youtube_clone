@@ -15,10 +15,13 @@ const LeftNav = () => {
         switch (type) {
             case "category":
                 return setSelectedCategory(name);
+
             case "home":
                 return setSelectedCategory(name);
+
             case "menu":
                 return false;
+
             default:
                 break;
         }
